@@ -28,7 +28,9 @@ Hệ thống quản lý bán hàng được xây dựng cho một chi nhánh c�
 
 CHƯƠNG 2: XÁC ĐỊNH YÊU CẦU HỆ THỐNG
 2.1.Quy trình nghiệp vụ 
+
 2.1.1Quy trình bán hàng (tại quầy)
+
 Quy trình tạo đơn bán hàng
 
 Quy trình thanh toán
@@ -50,6 +52,7 @@ CHƯƠNG 2: XÁC ĐỊNH YÊU CẦU HỆ THỐNG
 2.2.1Yêu cầu chức năng
 
 Nhân viên bán hàng
+
 -Đăng nhập: Người dùng chọn chức năng đăng nhập vào tài khoản có phân quyền để sử dụng phần mềm, đăng xuất, thay đổi mật khẩu sau khi đăng nhập.
 
 -Quản lý bán hàng: Tạo mới đơn hàng, Xem danh sách các đơn hàng, Xử lý thanh toán (kết nối với hệ thống Payment) và áp dụng các khuyến mãi
@@ -61,13 +64,21 @@ Nhân viên bán hàng
 -Quản lý bàn: Xem danh sách bàn
 
 Quản lý cửa hàng: 
+
 -Đăng nhập: Người dùng chọn chức năng đăng nhập vào tài khoản có phân quyền để sử dụng phần mềm, đăng xuất, thay đổi mật khẩu sau khi đăng nhập.
+
 -Quản lý bán hàng: Tạo đơn hàng, Xem danh sách đơn hàng, Xử lý thanh toán (kết nối với hệ thống Payment)
-=Quản lý thực đơn: Thêm, sửa, xóa, cập nhật thông tin các loại đồ uống trong thực đơn của cửa hàng.
+
+-Quản lý thực đơn: Thêm, sửa, xóa, cập nhật thông tin các loại đồ uống trong thực đơn của cửa hàng.
+
 -Quản lý khách hàng: Thêm khách hàng VIP, Xem danh sách khách hàng VIP
+
 -Quản lý nhân viên: Thêm, sửa, xóa thông tin nhân viên và chấm công cho nhân viên.
+
 -Quản lý tài khoản của nhân viên: Quản lý có thể thêm mới thông tin tài khoản., Khóa tài khoản nhân viên, Phân quyền cho các tài khoản nhân viên..
+
 -Quản lý bàn: Quản lý có thể cập nhật, thêm/xóa bàn.
+
 -Thống kê doanh thu: Thống kê và xuất báo cáo doanh thu theo thời gian, theo đơn hàng hoặc theo loại sản phẩm, Phân tích hoạt động bán hàng.
 
 Admin: Quản lý hệ thống
@@ -80,15 +91,15 @@ Hệ thống Payment (Payment System): Tích hợp vào để xử lý thanh to�
 ![image](https://github.com/user-attachments/assets/bcf9a308-3538-46b9-bcd1-a1a0ae67d811)
 
 2.2.2Yêu cầu phi chức năng
-Hiệu năng (Performance)
+-Hiệu năng (Performance)
 
-Tính sẵn sàng và ổn định (Availability & Reliability)
+-Tính sẵn sàng và ổn định (Availability & Reliability)
 
-Bảo mật (Security)
+-Bảo mật (Security)
 
-Khả năng mở rộng (Scalability)
+-Khả năng mở rộng (Scalability)
 
-Tính dễ sử dụng (Usability): Giao diện trực quan, dễ thao tác với người dùng không chuyên, giao diện đẹp, dễ sử dụng.
+-Tính dễ sử dụng (Usability): Giao diện trực quan, dễ thao tác với người dùng không chuyên, giao diện đẹp, dễ sử dụng.
 Hệ thống đăng nhập ổn định, phân quyền dựa trên vị trí của từng bộ phận sẽ được sử dụng những chức năng nào.
 
 <img width="360" alt="image" src="https://github.com/user-attachments/assets/00bbee0f-9309-4418-a686-d228dc60c486" />
@@ -103,6 +114,7 @@ Hệ thống quản lý cửa hàng Highland Coffee có các chức năng chính
 
 
 2.3.2Sơ đồ use case mức tổng thể 
+
 ![image](https://github.com/user-attachments/assets/77b7e7c9-a263-4f05-931f-9ee065c78529)
 
 2.3.3Sơ đồ use case mức chi tiết 
@@ -133,9 +145,11 @@ Hệ thống quản lý cửa hàng Highland Coffee có các chức năng chính
 
 
 2.3.4Đặc tả use case
+.....
 
 
 CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
+
 3.1.Phân tích ca sử dụng 
 
 3.1.1Sơ đồ hoạt động 
@@ -168,150 +182,156 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 
 3.1.2.1.Sơ đồ tuần tự đăng nhập
 
-Hình 312: Sơ đồ tuần tự đăng nhập
 3.1.2.2.Sơ đồ tuần tự đăng xuất
 
-Hình 313: Sơ đồ tuần tự đăng xuất
 3.1.2.3.Sơ đồ tuần tự tạo đơn bán hàng
 
-Hình 314: Sơ đồ tuần tự tạo đơn bán hàng
 3.1.2.4.Sơ đồ tuần tự xử lý thanh toán
 
-Hình 315: Sơ đồ tuần tự xử lý thanh toán
 3.1.2.5.Sơ đồ tuần tự quản lý nhân viên
-Xem thông tin nhân viên
 
-Hình 316: Sơ đồ tuần tự xem thông tin nhân viên
-Thêm nhân viên mới
-
-Hình 317: Sơ đồ tuần tự thêm nhân viên mới
-Chỉnh sửa thông tin nhân viên
-
-Hình 318: Sơ đồ tuần tự chỉnh sửa thông tin nhân viên
 3.1.2.6.Sơ đồ tuần tự quản lý tài khoản
 
-
-Hình 319: Sơ đồ tuần tự quản lý tài khoản
 3.1.2.7.Sơ đồ tuần tự quản lý khách hàng Vip
-Xem thông tin khách hàng
 
-Hình 320: Sơ đồ tuần tự xem thông tin KH Vip
-Thêm khách hàng Vip mới
-
-Hình 321: Sơ đồ tuần tự thêm KH Vip
-Sửa thông tin khách hàng
-
-Hình 322: Sơ đồ tuần tự sửa thông tin khách hàng Vip
 3.1.2.8.Sơ đồ tuần tự quản lý thực đơn
 
-
-Hình 323: Sơ đồ tuần tự quản lý thực đơn
 3.1.2.9.Sơ đồ tuần tự quản lý bàn
 
-
-Hình 324: Sơ đồ tuần tự chức năng quản lý bàn
 3.1.2.10.Sơ đồ tuần tự thống kê doanh thu
 
-Hình 325: Sơ đồ tuần tự thống kê doanh thu
 3.1.3Sơ đồ công tác 
+
 3.1.3.1.Sơ đồ cộng tác chức năng đăng nhập
 
-Hình 326: Sơ đồ cộng tác – Đăng nhập
 3.1.3.2.Sơ đồ cộng tác chức năng đăng xuất
 
-Hình 327: Sơ đồ cộng tác – Đăng xuất
 3.1.3.3.Sơ đồ cộng tác chức năng tạo đơn bán hàng
+
 3.1.3.4.Sơ đồ cộng tác chức năng xử lý thanh toán
 
-Hình 328: Sơ đồ cộng tác – Xử lý thanh toán
 3.1.3.5.Sơ đồ cộng tác chức năng quản lý nhân viên
-Xem danh sách nhân viên
 
-Hình 329: Sơ đồ cộng tác - Xem thông tin nhân viên
-Thêm nhân viên mới
-
-Hình 330: Sơ đồ cộng tác – Thêm nhân viên mới
-
-Sửa thông tin nhân viên
-
-Hình 331: Sơ đồ cộng tác – Sửa thông tin nhân viên
 3.1.3.6.Sơ đồ cộng tác chức năng quản lý khách hàng
-Xem thông tin khách hàng Vip
 
-Hình 332: Sơ đồ cộng tác – Xem thông tin KH Vip
-Thêm khách hàng Vip
-
-Hình 333: Sơ đồ cộng tác – Thêm KH Vip
-Chỉnh sửa thông tin khách hàng Vip
-
-Hình 334: Sơ đồ cộng tác chức năng chỉnh sửa thông tin khách hàng Vip
 3.1.3.7.Sơ đồ cộng tác chức năng thống kê doanh thu
 
-Hình 335: sơ đồng cộng tác chức năng thống kê doanh thu
 3.2.Phân tích cấu trúc vật lý (sơ đồ lớp) 
 
-Hình 336: Sơ đồ Class
 3.3.Sơ đồ trạng thái 
-
-Hình 337: Sơ đồ trạng thái
-
 
 CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
 4.1.	Xác định các phần tử thiết kế	81
+
 4.1.1	Gói (Package)	81
+
 4.1.2	Lớp thiết kế	83
+
 4.2.	Thiết kế cơ sở dữ liệu	85
+
 4.2.1	Tạo CSDL	85
+
 4.2.1.1.	Mối liên hệ giữa các thực thể (lớp)	85
+
 4.2.1.2.	Lược đồ CSDL	99
+
 4.2.1.3.	Mô tả cấu trúc bảng	99
+
 4.2.1.4.	Relationship diagram	107
+
 4.2.2	Ràng buộc dữ liệu	107
+
 4.2.2.1.	Ràng buộc toàn vẹn khóa chính	107
+
 4.2.2.2.	Ràng buộc toàn vẹn khóa ngoại	108
+
 4.2.2.3.	Ràng buộc toàn vẹn miền giá trị	109
+
 4.2.2.4.	Ràng buộc toàn vẹn liên thuộc tính	111
+
 4.2.2.5.	Ràng buộc toàn vẹn liên thuộc tính – liên quan hệ	111
+
 4.2.3	Trigger	112
+
 4.2.3.1.	Trigger kiểm tra số lượng đồ uống có sẵn	112
+
 4.2.3.2.	Trigger kiểm tra điểm tích lũy KH Vip	113
+
 4.2.3.3.	Trigger kiểm tra hạng thành viên (KH Vip)	114
+
 4.2.3.4.	Trigger cập nhật trạng thái bàn	114
+
 4.2.3.5.	Trigger kiểm tra số lượng đồ uống	115
+
 4.2.3.6.	Trigger cập nhật doanh thu bán hàng	116
+
 4.2.4	Dữ liệu mẫu	117
+
 4.3.	Thiết kế các pha sử dụng ( kiến trúc 3 tầng cho từng use case)	129
+
 4.3.1	Boundary	129
+
 4.3.2	Entity	130
+
 4.3.3	Control	130
+
 4.3.4	Kiến trúc 3 tầng cho các chức năng	130
+
 4.4.	Thiết kế giao diện	137
+
 4.4.1	Giao diện đăng nhập	137
+
 4.4.2	Đăng xuất	138
+
 4.4.3	Trang chủ	138
+
 4.4.4	Giao diện đổi mật khẩu	139
+
 4.4.5	Giao diện quản lý bán hàng	139
+
 4.4.6	Giao diện quản lý bàn	140
+
 4.4.7	Giao diện người quản lý	142
+
 4.4.8	Quản lý nhân viên	142
+
 4.4.9	Quản lý đồ uống (thực đơn)	144
+
 4.4.10	Giao diện thống kê doanh thu	145
+
 4.5.	Thiết kế kiến trúc vật lí	145
+
 4.5.1	Sơ đồ thành phần	145
+
 4.5.2	Sơ đồ triển khai	146
+
 4.6.	Chương trình mẫu	147
+
 4.6.1	Đăng nhập	150
+
 4.6.2	Đăng xuất	152
+
 4.6.3	Đổi mật khẩu	153
+
 4.6.4	Quản lý bán hàng	154
+
 4.6.5	Quản lý bàn	158
+
 4.6.6	Quản lý đồ uống (thực đơn)	160
+
 4.6.7	Quản lý nhân viên	161
+
 4.6.8	Thống kê doanh thu	165
+
 CHƯƠNG 5:	KẾT LUẬN	169
+
 5.1.	Kết luận	169
+
 5.1.1	Kết quả đạt được:	169
+
 5.1.2	Những hạn chế còn tồn tại:	169
+
 5.2.	Hướng phát triển tiếp theo	169
+
 
 
