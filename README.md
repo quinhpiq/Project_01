@@ -17,6 +17,7 @@ Bên cạnh các chức năng phục vụ cho nhân viên bán hàng và quản 
 Hệ thống cần đảm bảo cho quá trình hoạt động diễn ra suôn sẻ, lý giao dịch nhanh chóng, đặc biệt trong giờ cao điểm. Giao diện trực quan, dễ thao tác với người dùng, dễ sử dụng.
 
 1.2.Mục tiêu hệ thống
+
 Tự động hóa quy trình bán hàng tại chi nhánh: Hỗ trợ nhân viên tạo đơn hàng nhanh chóng, kiểm tra tình trạng đồ uống và bàn, áp dụng khuyến mãi và xử lý thanh toán nhanh chóng, chính xác.
 Giảm thời gian thao tác thủ công, nâng cao trải nghiệm khách hàng tại quầy order.
 Quản lý hiệu quả hoạt động của cửa hàng: Cung cấp cho người quản lý khả năng theo dõi tình trạng bàn, nhân sự, đồ uống và đơn hàng theo thời gian thực. Cho phép thống kê doanh thu, xuất báo cáo để đưa ra quyết định kinh doanh kịp thời và chính xác.
@@ -24,6 +25,7 @@ Chăm sóc và giữ chân khách hàng VIP: Hệ thống lưu thông tin khách
 Tăng độ chuyên nghiệp, đồng bộ và minh bạch: In hóa đơn rõ ràng, minh bạch cho khách hàng. Đảm bảo mọi giao dịch đều được lưu trữ, hỗ trợ kiểm tra – đối soát khi cần.
 
 1.3.Phạm vi hệ thống
+
 Hệ thống quản lý bán hàng được xây dựng cho một chi nhánh của cửa hàng Highland Coffee. Phạm vi hệ thống bao gồm các chức năng liên quan đến bán hàng tại quầy, quản lý thông tin nội bộ tại chi nhánh và xuất các báo cáo thống kê doanh thu, hỗ trợ nhân viên và người quản lý cửa hàng
 
 
@@ -157,15 +159,23 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 
 3.1.1.1.Sơ đồ hoạt động chức năng đăng nhập
 
+![image](https://github.com/user-attachments/assets/df15e255-3ba0-4cdc-9b45-4d01fe54b955)
 
 3.1.1.2.Sơ đồ hoạt động chức năng đăng xuất
 
+![image](https://github.com/user-attachments/assets/0efff51b-7d27-422c-ac21-07c0a7e64eea)
 
 3.1.1.3.Sơ đồ hoạt động chức năng đổi mật khẩu
 
+![image](https://github.com/user-attachments/assets/c0d7b439-e5e0-4213-9765-5a9bad3d118f)
+
 3.1.1.4.Sơ đồ hoạt động chức năng quản lý bán hàng
 
+![image](https://github.com/user-attachments/assets/60bd4154-a301-4357-ba09-df548095fde8)
+
 3.1.1.5.Sơ đồ hoạt động chức năng xử lý thanh toán
+
+![image](https://github.com/user-attachments/assets/586dedd6-0ff9-484d-a32c-de9661292686)
 
 3.1.1.6.Sơ đồ hoạt động chức năng thống kê doanh thu
 
@@ -183,11 +193,17 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 
 3.1.2.1.Sơ đồ tuần tự đăng nhập
 
+![image](https://github.com/user-attachments/assets/3d692dfa-8515-4dcc-b114-372ede648183)
+
 3.1.2.2.Sơ đồ tuần tự đăng xuất
 
 3.1.2.3.Sơ đồ tuần tự tạo đơn bán hàng
 
+![image](https://github.com/user-attachments/assets/b8438121-5f9b-4875-b6a1-77ff676b2177)
+
 3.1.2.4.Sơ đồ tuần tự xử lý thanh toán
+
+![image](https://github.com/user-attachments/assets/44077fa3-2d14-4a25-a51e-9cd6b620c851)
 
 3.1.2.5.Sơ đồ tuần tự quản lý nhân viên
 
@@ -199,17 +215,23 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 
 3.1.2.9.Sơ đồ tuần tự quản lý bàn
 
+![image](https://github.com/user-attachments/assets/6dcf93d4-8740-4edf-9bea-4f81f3fc1a72)
+
 3.1.2.10.Sơ đồ tuần tự thống kê doanh thu
 
 3.1.3Sơ đồ công tác 
 
 3.1.3.1.Sơ đồ cộng tác chức năng đăng nhập
 
+![image](https://github.com/user-attachments/assets/434712bf-1a2b-4457-aea7-fa84a2242932)
+
 3.1.3.2.Sơ đồ cộng tác chức năng đăng xuất
 
 3.1.3.3.Sơ đồ cộng tác chức năng tạo đơn bán hàng
 
 3.1.3.4.Sơ đồ cộng tác chức năng xử lý thanh toán
+
+![image](https://github.com/user-attachments/assets/3d6dd8a0-be2b-4d62-be05-ccf9acbaba1c)
 
 3.1.3.5.Sơ đồ cộng tác chức năng quản lý nhân viên
 
@@ -219,14 +241,52 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 
 3.2.Phân tích cấu trúc vật lý (sơ đồ lớp) 
 
+![image](https://github.com/user-attachments/assets/1a09c5d2-1ec9-4b80-bb7b-07ee183ab13f)
+
 3.3.Sơ đồ trạng thái 
+
+![image](https://github.com/user-attachments/assets/b12b07af-a409-490d-95b0-5e84ba2ba80c)
 
 CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
 4.1.	Xác định các phần tử thiết kế	
 
 4.1.1	Gói (Package)	
 
+![image](https://github.com/user-attachments/assets/0649bfae-188f-4950-a1a5-2002b9f88a52)
+
+
+![image](https://github.com/user-attachments/assets/1071e190-a95a-4fb0-ae0f-8a891c432d6a)
+
 4.1.2	Lớp thiết kế	
+Lớp thiết kế
+
+NhanVien
+
+Admin
+
+ChucVu
+
+TaiKhoan
+
+Ban
+
+DonBan
+
+CTHD
+
+ThucDon
+
+KhachHangVip
+
+ThanhToan
+
+CTKhuyenMai
+
+BaoCaoThongKe
+
+Bill
+
+ThongKeDoanhThu
 
 4.2.	Thiết kế cơ sở dữ liệu
 
@@ -236,9 +296,13 @@ CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
 
 4.2.1.2.	Lược đồ CSDL	
 
+![image](https://github.com/user-attachments/assets/baff33c4-98e5-46c9-860d-9a26168f6b50)
+
 4.2.1.3.	Mô tả cấu trúc bảng	
 
 4.2.1.4.	Relationship diagram	
+
+![image](https://github.com/user-attachments/assets/efc293f2-15cb-4970-a2f6-3eb79b9f7da1)
 
 4.2.2	Ràng buộc dữ liệu	
 
@@ -254,18 +318,6 @@ CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
 
 4.2.3	Trigger	
 
-4.2.3.1.	Trigger kiểm tra số lượng đồ uống có sẵn	
-
-4.2.3.2.	Trigger kiểm tra điểm tích lũy KH Vip	
-
-4.2.3.3.	Trigger kiểm tra hạng thành viên (KH Vip)	
-
-4.2.3.4.	Trigger cập nhật trạng thái bàn	
-
-4.2.3.5.	Trigger kiểm tra số lượng đồ uống	
-
-4.2.3.6.	Trigger cập nhật doanh thu bán hàng	
-
 4.2.4	Dữ liệu mẫu	
 
 4.3.	Thiết kế các pha sử dụng ( kiến trúc 3 tầng cho từng use case)	
@@ -278,11 +330,17 @@ CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
 
 4.3.4	Kiến trúc 3 tầng cho các chức năng	
 
+![image](https://github.com/user-attachments/assets/66099bdc-44bd-434b-9be0-a343e89502fb)
+
 4.4.	Thiết kế giao diện	
+
+![image](https://github.com/user-attachments/assets/5f4df80e-05c0-4bd3-a2d5-89981acaae20)
 
 4.4.1	Giao diện đăng nhập	
 
 4.4.2	Đăng xuất	
+
+![image](https://github.com/user-attachments/assets/e5ecaa07-81db-498a-985d-d930ce2e40ce)
 
 4.4.3	Trang chủ	
 
