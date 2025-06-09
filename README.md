@@ -2,6 +2,7 @@
 Analyzed and designed a complete system for a coffee shop
 
 CHƯƠNG 1: TỔNG QUAN VỀ ĐỀ TÀI
+
 1.1.Phát biểu bài toán
 
 Highland Coffee là thương thiệu kinh doanh trong lĩnh vực dịch vụ F&B (Food and Beverage), cung cấp đa dạng các loại đồ uống. Một chi nhánh của cửa hàng Highland Coffee muốn xây dựng một hệ thống quản lý bán hàng để dễ dàng quản lý các quy trình bán hàng hơn, đồng thời hỗ trợ quản lý nhân viên hiệu quả. Hệ thống tập trung vào quy trình bán hàng và quản lý cửa hàng của một chi nhánh. Nhân viên (bao gồm nhân viên bán hàng và quản lý cửa hàng) sẽ là những đối tượng chính sử dụng hệ thống này.
@@ -221,117 +222,117 @@ CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 3.3.Sơ đồ trạng thái 
 
 CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
-4.1.	Xác định các phần tử thiết kế	81
+4.1.	Xác định các phần tử thiết kế	
 
-4.1.1	Gói (Package)	81
+4.1.1	Gói (Package)	
 
-4.1.2	Lớp thiết kế	83
+4.1.2	Lớp thiết kế	
 
-4.2.	Thiết kế cơ sở dữ liệu	85
+4.2.	Thiết kế cơ sở dữ liệu
 
-4.2.1	Tạo CSDL	85
+4.2.1	Tạo CSDL	
 
-4.2.1.1.	Mối liên hệ giữa các thực thể (lớp)	85
+4.2.1.1.	Mối liên hệ giữa các thực thể (lớp)
 
-4.2.1.2.	Lược đồ CSDL	99
+4.2.1.2.	Lược đồ CSDL	
 
-4.2.1.3.	Mô tả cấu trúc bảng	99
+4.2.1.3.	Mô tả cấu trúc bảng	
 
-4.2.1.4.	Relationship diagram	107
+4.2.1.4.	Relationship diagram	
 
-4.2.2	Ràng buộc dữ liệu	107
+4.2.2	Ràng buộc dữ liệu	
 
-4.2.2.1.	Ràng buộc toàn vẹn khóa chính	107
+4.2.2.1.	Ràng buộc toàn vẹn khóa chính	
 
-4.2.2.2.	Ràng buộc toàn vẹn khóa ngoại	108
+4.2.2.2.	Ràng buộc toàn vẹn khóa ngoại	
 
-4.2.2.3.	Ràng buộc toàn vẹn miền giá trị	109
+4.2.2.3.	Ràng buộc toàn vẹn miền giá trị	
 
-4.2.2.4.	Ràng buộc toàn vẹn liên thuộc tính	111
+4.2.2.4.	Ràng buộc toàn vẹn liên thuộc tính	
 
-4.2.2.5.	Ràng buộc toàn vẹn liên thuộc tính – liên quan hệ	111
+4.2.2.5.	Ràng buộc toàn vẹn liên thuộc tính – liên quan hệ	
 
-4.2.3	Trigger	112
+4.2.3	Trigger	
 
-4.2.3.1.	Trigger kiểm tra số lượng đồ uống có sẵn	112
+4.2.3.1.	Trigger kiểm tra số lượng đồ uống có sẵn	
 
-4.2.3.2.	Trigger kiểm tra điểm tích lũy KH Vip	113
+4.2.3.2.	Trigger kiểm tra điểm tích lũy KH Vip	
 
-4.2.3.3.	Trigger kiểm tra hạng thành viên (KH Vip)	114
+4.2.3.3.	Trigger kiểm tra hạng thành viên (KH Vip)	
 
-4.2.3.4.	Trigger cập nhật trạng thái bàn	114
+4.2.3.4.	Trigger cập nhật trạng thái bàn	
 
-4.2.3.5.	Trigger kiểm tra số lượng đồ uống	115
+4.2.3.5.	Trigger kiểm tra số lượng đồ uống	
 
-4.2.3.6.	Trigger cập nhật doanh thu bán hàng	116
+4.2.3.6.	Trigger cập nhật doanh thu bán hàng	
 
-4.2.4	Dữ liệu mẫu	117
+4.2.4	Dữ liệu mẫu	
 
-4.3.	Thiết kế các pha sử dụng ( kiến trúc 3 tầng cho từng use case)	129
+4.3.	Thiết kế các pha sử dụng ( kiến trúc 3 tầng cho từng use case)	
 
-4.3.1	Boundary	129
+4.3.1	Boundary	
 
-4.3.2	Entity	130
+4.3.2	Entity	
 
-4.3.3	Control	130
+4.3.3	Control	
 
-4.3.4	Kiến trúc 3 tầng cho các chức năng	130
+4.3.4	Kiến trúc 3 tầng cho các chức năng	
 
-4.4.	Thiết kế giao diện	137
+4.4.	Thiết kế giao diện	
 
-4.4.1	Giao diện đăng nhập	137
+4.4.1	Giao diện đăng nhập	
 
-4.4.2	Đăng xuất	138
+4.4.2	Đăng xuất	
 
-4.4.3	Trang chủ	138
+4.4.3	Trang chủ	
 
-4.4.4	Giao diện đổi mật khẩu	139
+4.4.4	Giao diện đổi mật khẩu	
 
-4.4.5	Giao diện quản lý bán hàng	139
+4.4.5	Giao diện quản lý bán hàng	
 
-4.4.6	Giao diện quản lý bàn	140
+4.4.6	Giao diện quản lý bàn	
 
-4.4.7	Giao diện người quản lý	142
+4.4.7	Giao diện người quản lý	
 
-4.4.8	Quản lý nhân viên	142
+4.4.8	Quản lý nhân viên	
 
-4.4.9	Quản lý đồ uống (thực đơn)	144
+4.4.9	Quản lý đồ uống (thực đơn)
 
-4.4.10	Giao diện thống kê doanh thu	145
+4.4.10	Giao diện thống kê doanh thu	
 
-4.5.	Thiết kế kiến trúc vật lí	145
+4.5.	Thiết kế kiến trúc vật lí	
 
-4.5.1	Sơ đồ thành phần	145
+4.5.1	Sơ đồ thành phần	
 
-4.5.2	Sơ đồ triển khai	146
+4.5.2	Sơ đồ triển khai	
 
-4.6.	Chương trình mẫu	147
+4.6.	Chương trình mẫu	
 
-4.6.1	Đăng nhập	150
+4.6.1	Đăng nhập	
 
-4.6.2	Đăng xuất	152
+4.6.2	Đăng xuất	
 
-4.6.3	Đổi mật khẩu	153
+4.6.3	Đổi mật khẩu	
 
-4.6.4	Quản lý bán hàng	154
+4.6.4	Quản lý bán hàng	
 
-4.6.5	Quản lý bàn	158
+4.6.5	Quản lý bàn	
 
-4.6.6	Quản lý đồ uống (thực đơn)	160
+4.6.6	Quản lý đồ uống (thực đơn)	
 
-4.6.7	Quản lý nhân viên	161
+4.6.7	Quản lý nhân viên	
 
-4.6.8	Thống kê doanh thu	165
+4.6.8	Thống kê doanh thu	
 
-CHƯƠNG 5:	KẾT LUẬN	169
+CHƯƠNG 5:	KẾT LUẬN	
 
-5.1.	Kết luận	169
+5.1.	Kết luận	
 
-5.1.1	Kết quả đạt được:	169
+5.1.1	Kết quả đạt được:	
 
-5.1.2	Những hạn chế còn tồn tại:	169
+5.1.2	Những hạn chế còn tồn tại:	
 
-5.2.	Hướng phát triển tiếp theo	169
+5.2.	Hướng phát triển tiếp theo	
 
 
 
