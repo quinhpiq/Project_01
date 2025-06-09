@@ -137,41 +137,35 @@ Hệ thống quản lý cửa hàng Highland Coffee có các chức năng chính
 
 CHƯƠNG 3: PHÂN TÍCH HỆ THỐNG
 3.1.Phân tích ca sử dụng 
+
 3.1.1Sơ đồ hoạt động 
+
 3.1.1.1.Sơ đồ hoạt động chức năng đăng nhập
 
-Hình 31: Sơ đồ hoạt động chức năng đăng nhập
+
 3.1.1.2.Sơ đồ hoạt động chức năng đăng xuất
 
-Hình 32: Sơ đồ hoạt động chức năng đăng xuất
+
 3.1.1.3.Sơ đồ hoạt động chức năng đổi mật khẩu
 
-Hình 33: Sơ đồ hoạt động chức năng đổi mật khẩu
 3.1.1.4.Sơ đồ hoạt động chức năng quản lý bán hàng
 
-Hình 34: Sơ đồ hoạt động chức năng quản lý bán hàng
 3.1.1.5.Sơ đồ hoạt động chức năng xử lý thanh toán
 
-Hình 35: Sơ đồ hoạt động chức năng xử lý thanh toán
 3.1.1.6.Sơ đồ hoạt động chức năng thống kê doanh thu
 
-Hình 36: Sơ đồ hoạt động chức năng thống kê doanh thu
 3.1.1.7.Sơ đồ hoạt động chức năng quản lý khách hàng
 
-Hình 37: Sơ đồ hoạt động chức năng quản lý khách hàng
 3.1.1.8.Sơ đồ hoạt động chức năng quản lý nhân viên
 
-Hình 38: Sơ đồ hoạt động chức năng quản lý nhân viên
 3.1.1.9.Sơ đồ hoạt động chức năng quản lý thực đơn
 
-Hình 39: Sơ đồ hoạt động chức năng quản lý thực đơn
 3.1.1.10.Sơ đồ hoạt động chức năng quản lý bàn
 
-Hình 310: Sơ đồ hoạt động chức năng quản lý bàn
 3.1.1.11.Sơ đồ hoạt động chức năng quản lý tài khoản
 
-Hình 311: Sơ đồ hoạt động chức năng quản lý tài khoản
 3.1.2Sơ đồ tuần tự (pha sử dụng)
+
 3.1.2.1.Sơ đồ tuần tự đăng nhập
 
 Hình 312: Sơ đồ tuần tự đăng nhập
@@ -262,25 +256,62 @@ Hình 336: Sơ đồ Class
 Hình 337: Sơ đồ trạng thái
 
 
+CHƯƠNG 4:	THIẾT KẾ HỆ THỐNG	81
+4.1.	Xác định các phần tử thiết kế	81
+4.1.1	Gói (Package)	81
+4.1.2	Lớp thiết kế	83
+4.2.	Thiết kế cơ sở dữ liệu	85
+4.2.1	Tạo CSDL	85
+4.2.1.1.	Mối liên hệ giữa các thực thể (lớp)	85
+4.2.1.2.	Lược đồ CSDL	99
+4.2.1.3.	Mô tả cấu trúc bảng	99
+4.2.1.4.	Relationship diagram	107
+4.2.2	Ràng buộc dữ liệu	107
+4.2.2.1.	Ràng buộc toàn vẹn khóa chính	107
+4.2.2.2.	Ràng buộc toàn vẹn khóa ngoại	108
+4.2.2.3.	Ràng buộc toàn vẹn miền giá trị	109
+4.2.2.4.	Ràng buộc toàn vẹn liên thuộc tính	111
+4.2.2.5.	Ràng buộc toàn vẹn liên thuộc tính – liên quan hệ	111
+4.2.3	Trigger	112
+4.2.3.1.	Trigger kiểm tra số lượng đồ uống có sẵn	112
+4.2.3.2.	Trigger kiểm tra điểm tích lũy KH Vip	113
+4.2.3.3.	Trigger kiểm tra hạng thành viên (KH Vip)	114
+4.2.3.4.	Trigger cập nhật trạng thái bàn	114
+4.2.3.5.	Trigger kiểm tra số lượng đồ uống	115
+4.2.3.6.	Trigger cập nhật doanh thu bán hàng	116
+4.2.4	Dữ liệu mẫu	117
+4.3.	Thiết kế các pha sử dụng ( kiến trúc 3 tầng cho từng use case)	129
+4.3.1	Boundary	129
+4.3.2	Entity	130
+4.3.3	Control	130
+4.3.4	Kiến trúc 3 tầng cho các chức năng	130
+4.4.	Thiết kế giao diện	137
+4.4.1	Giao diện đăng nhập	137
+4.4.2	Đăng xuất	138
+4.4.3	Trang chủ	138
+4.4.4	Giao diện đổi mật khẩu	139
+4.4.5	Giao diện quản lý bán hàng	139
+4.4.6	Giao diện quản lý bàn	140
+4.4.7	Giao diện người quản lý	142
+4.4.8	Quản lý nhân viên	142
+4.4.9	Quản lý đồ uống (thực đơn)	144
+4.4.10	Giao diện thống kê doanh thu	145
+4.5.	Thiết kế kiến trúc vật lí	145
+4.5.1	Sơ đồ thành phần	145
+4.5.2	Sơ đồ triển khai	146
+4.6.	Chương trình mẫu	147
+4.6.1	Đăng nhập	150
+4.6.2	Đăng xuất	152
+4.6.3	Đổi mật khẩu	153
+4.6.4	Quản lý bán hàng	154
+4.6.5	Quản lý bàn	158
+4.6.6	Quản lý đồ uống (thực đơn)	160
+4.6.7	Quản lý nhân viên	161
+4.6.8	Thống kê doanh thu	165
+CHƯƠNG 5:	KẾT LUẬN	169
+5.1.	Kết luận	169
+5.1.1	Kết quả đạt được:	169
+5.1.2	Những hạn chế còn tồn tại:	169
+5.2.	Hướng phát triển tiếp theo	169
 
-
-CHƯƠNG 4: THIẾT KẾ HỆ THỐNG 
-4.1.Xác định các phần tử thiết kế
-4.1.1Gói (Package)
-Bảng 41: Các gói (Package) trong hệ thống
-STT	Gói	Lớp bên trong	Mô tả
-1	NguoiDung	NhanVien, ChucVu, TaiKhoan, Admin	Quản lý người dùng hệ thống
-2	BanHang	DonHang, Ban, CTHD	Xử lý và lưu trữ thông tin đơn hàng
-3	ThucDon	ThucDon, CTkhuyenMai	Quản lý đồ uống trong thực đơn, khuyến mãi đồ uống
-4	KhachHang	KhachHangVip	Quản lý khách hàng vip và tích điểm cho KH vip
-5	ThongKe	ThongKeDoanhThu, BaoCaoThongKe	Xử lý doanh thu và thống kê doanh thu, in báo cáo thống kê
-6	ThanhToan	ThanhToan, Bill	Quản lý và xử lý các thông tin thanh toán và xuất hóa đơn thanh toán
-7	GiaoDienHeThong		Bao gồm các giao diện, form để người dùng tương tác với các chức năng
-8	PaymentSystem		Hệ thống thanh toán
-
-
-Hình 41: Các gói trong hệ thống
-
-Hình 42: Package Diagram
-4.1.2Lớp thiết kế
 
