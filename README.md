@@ -30,15 +30,16 @@ Hệ thống quản lý bán hàng được xây dựng cho một chi nhánh c�
 
 
 CHƯƠNG 2: XÁC ĐỊNH YÊU CẦU HỆ THỐNG
+
 2.1.Quy trình nghiệp vụ 
 
 2.1.1Quy trình bán hàng (tại quầy)
 
-Quy trình tạo đơn bán hàng
+- Quy trình tạo đơn bán hàng
 
-Quy trình thanh toán
+- Quy trình thanh toán
 
-Quy trình tích điểm khách hàng Vip.
+- Quy trình tích điểm khách hàng Vip.
 
 2.1.2Quy trình đăng nhập
 
