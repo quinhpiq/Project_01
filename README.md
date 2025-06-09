@@ -1,5 +1,5 @@
 # Project_01
-Analyzed and designed a complete system for a coffee shop
+Analyzed and designed a complete system for a coffee shop (bản demo)
 
 CHƯƠNG 1: TỔNG QUAN VỀ ĐỀ TÀI
 
